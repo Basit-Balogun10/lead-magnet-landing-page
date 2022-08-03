@@ -62,7 +62,6 @@ const Hero = () => {
                             onClick={() =>
                                 window.open("https://wa.me/+447871183058", "_blank", "noreferrer")
                             }
-                            rel="noreferrer"
                             className="text-[montserrat] transition-colors ease-in-out shadow-lg shadow-black font-semibold border focus:outline-none ring-4 rounded-xl px-6 py-[0.875rem] mr-2 mb-2 bg-[#fdf801] text-black border-[#fdf801] hover:bg-gradient-to-tr from-yellow-100 to-[#ffff00] ring-yellow-200/50"
                         >
                             BOOK NOW

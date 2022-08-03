@@ -24,33 +24,45 @@ const Header = () => {
                                     className="w-16 h-16"
                                 />
                                 <div className="flex items-center justify-center md:justify-end space-x-1 md:space-x-4">
-                                    <a
+                                    <button
                                         type="button"
-                                        href="https://www.instagram.com/mcr_sports_coaching"
-                                        target="_blank"
-                                        rel="noreferrer"
+                                        onClick={() =>
+                                            window.open(
+                                                "https://www.instagram.com/mcr_sports_coaching",
+                                                "_blank",
+                                                "noreferrer"
+                                            )
+                                        }
                                         className="p-2 text-4xl text-red-500 hover:bg-red-100 rounded-full border-none outline-none cursor-pointer"
                                     >
                                         <FaInstagram />
-                                    </a>
-                                    <a
+                                    </button>
+                                    <button
                                         type="button"
-                                        href="https://www.facebook.com/mcrsc/"
-                                        target="_blank"
-                                        rel="noreferrer"
+                                        onClick={() =>
+                                            window.open(
+                                                "https://www.facebook.com/mcrsc/",
+                                                "_blank",
+                                                "noreferrer"
+                                            )
+                                        }
                                         className="p-2 text-4xl text-blue-700 hover:bg-blue-100 rounded-full border-none outline-none cursor-pointer"
                                     >
                                         <FaFacebook />
-                                    </a>
-                                    <a
+                                    </button>
+                                    <button
                                         type="button"
-                                        href="https://wa.me/+447871183058"
-                                        target="_blank"
-                                        rel="noreferrer"
+                                        onClick={() =>
+                                            window.open(
+                                                "https://wa.me/+447871183058",
+                                                "_blank",
+                                                "noreferrer"
+                                            )
+                                        }
                                         className="p-2 text-4xl text-green-400 hover:bg-green-100 rounded-full border-none outline-none cursor-pointer"
                                     >
                                         <FaWhatsapp />
-                                    </a>
+                                    </button>
                                 </div>
                             </div>
                         </div>
