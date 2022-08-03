@@ -22,7 +22,7 @@ const Hero = () => {
                         <h3 className="text-sm text-black/80 font-[pacifico] italic space-x-2 tracking-wider md:tracking-widest">
                             <span>Wisdom and Effort </span>
                             <span className="not-italic text-black">⚫</span>
-                            <span>Concilio et Effort</span>
+                            <span>Concilio et Labore</span>
                         </h3>
                     </div>
                     <div className="hidden md:flex items-center space-x-4 text-center">
