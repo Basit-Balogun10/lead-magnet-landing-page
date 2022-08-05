@@ -26,32 +26,32 @@ const Hero = () => {
                         </h3>
                     </div>
                     <div className="hidden md:flex items-center space-x-4 text-center">
-                        <FaFutbol className="text-2xl text-[#ffff00]" />
+                        <FaFutbol className="text-2xl text-mainColor" />
                         <p className="leading-relaxed text-md md:text-sm font-semibold text-black/80">
                             Football Coaching in Manchester for 1-6 year olds
                         </p>
                     </div>
                     <div className="hidden md:flex items-center space-x-4 text-center">
-                        <FaFutbol className="text-2xl text-[#ffff00]" />
+                        <FaFutbol className="text-2xl text-mainColor" />
                         <p className="leading-relaxed text-md md:text-sm font-semibold text-black/80">
                             Holiday Camps | Birthday Parties | 1-2-1 | Group
                             Coaching
                         </p>
                     </div>
                     <div className="md:hidden flex items-center space-x-4 text-center">
-                        <FaFutbol className="text-2xl text-[#ffff00]" />
+                        <FaFutbol className="text-2xl text-mainColor" />
                         <p className="leading-relaxed text-md md:text-sm font-semibold text-black/80">
                             Football Coaching in Manchester
                         </p>
                     </div>
                     <div className="md:hidden flex items-center space-x-4 text-center">
-                        <FaFutbol className="text-2xl text-[#ffff00]" />
+                        <FaFutbol className="text-2xl text-mainColor" />
                         <p className="leading-relaxed text-md md:text-sm font-semibold text-black/80">
                             Holiday Camps | Birthday Parties
                         </p>
                     </div>
                     <div className="md:hidden flex items-center space-x-4 text-center">
-                        <FaFutbol className="text-2xl text-[#ffff00]" />
+                        <FaFutbol className="text-2xl text-mainColor" />
                         <p className="leading-relaxed text-md md:text-sm font-semibold text-black/80">
                             1-6 year olds | 1-2-1 | Group Coaching
                         </p>
@@ -60,9 +60,13 @@ const Hero = () => {
                         <button
                             type="button"
                             onClick={() =>
-                                window.open("https://wa.me/+447871183058", "_blank", "noreferrer")
+                                window.open(
+                                    "https://wa.me/+447871183058",
+                                    "_blank",
+                                    "noreferrer"
+                                )
                             }
-                            className="text-[montserrat] transition-colors ease-in-out shadow-lg shadow-black font-semibold border focus:outline-none ring-4 rounded-xl px-6 py-[0.875rem] mr-2 mb-2 bg-[#fdf801] text-black border-[#fdf801] hover:bg-gradient-to-tr from-yellow-100 to-[#ffff00] ring-yellow-200/50"
+                            className="text-[montserrat] transition-colors ease-in-out shadow-lg shadow-black font-semibold border focus:outline-none ring-4 rounded-xl px-6 py-[0.875rem] mr-2 mb-2 bg-secondaryColor text-black border-secondaryColor hover:bg-gradient-to-tr from-yellow-100 to-mainColor ring-yellow-200/50"
                         >
                             BOOK NOW
                         </button>

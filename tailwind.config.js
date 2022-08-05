@@ -10,8 +10,12 @@ module.exports = {
             fontFamily: {
                 poppins: ["Poppins", "sans-serif"],
                 montserrat: ["Montserrat", "sans-serif"],
-                pacifico: ['Pacifico', 'sans-serif']
-            },  
+                pacifico: ["Pacifico", "sans-serif"],
+            },
+            colors: {
+                mainColor: "#ffff00",
+                secondaryColor: "#fdf801",
+            },
         },
     },
     plugins: [],
