@@ -20,15 +20,15 @@ const Header = () => {
                         <div className="py-2 px-6 md:px-16">
                             <div className="flex items-center justify-between md:space-x-4">
                                 <img
-                                    src="/images/mcr_logo.png"
-                                    className="w-16 h-16"
+                                    src="/images/john_fenton_logo.png"
+                                    className="w-16 h-16 rounded-lg"
                                 />
                                 <div className="flex items-center justify-center md:justify-end space-x-1 md:space-x-4">
                                     <button
                                         type="button"
                                         onClick={() =>
                                             window.open(
-                                                "https://www.instagram.com/mcr_sports_coaching",
+                                                "https://www.instagram.com/johntechnicalsoccer",
                                                 "_blank",
                                                 "noreferrer"
                                             )
@@ -41,7 +41,7 @@ const Header = () => {
                                         type="button"
                                         onClick={() =>
                                             window.open(
-                                                "https://www.facebook.com/mcrsc/",
+                                                "https://www.facebook.com/profile.php?id=100064048421709",
                                                 "_blank",
                                                 "noreferrer"
                                             )
@@ -54,7 +54,7 @@ const Header = () => {
                                         type="button"
                                         onClick={() =>
                                             window.open(
-                                                "https://wa.me/+447871183058",
+                                                "https://wa.me/+447920524145",
                                                 "_blank",
                                                 "noreferrer"
                                             )

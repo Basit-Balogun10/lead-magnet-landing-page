@@ -7,7 +7,7 @@ const NavItem = ({ hrefVal, navItemText, isMobileView, lastItem }) => {
                 <li>
                     <a
                         href={hrefVal}
-                        className="md:font-semibold rounded-md block py-2 pr-4 pl-3 hover:underline text-black/90"
+                        className="md:font-semibold rounded-md block py-2 pr-4 pl-3 hover:underline /90"
                     >
                         {navItemText}
                     </a>
@@ -16,7 +16,7 @@ const NavItem = ({ hrefVal, navItemText, isMobileView, lastItem }) => {
             ) : (
                 <a
                     href={hrefVal}
-                    className="md:font-semibold rounded-md block py-2 pr-4 pl-3 hover:underline hover:underline-offset-4 hover:decoration-2 text-black/60"
+                    className="md:font-semibold rounded-md block py-2 pr-4 pl-3 hover:underline hover:underline-offset-4 hover:decoration-2 /60"
                 >
                     {navItemText}
                 </a>

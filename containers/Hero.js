@@ -14,46 +14,34 @@ const Hero = () => {
                     src="/images/group_photo.png"
                     className="w-104 h-72 mt-6 md:mt-0 shadow-xl shadow-black rounded-3xl md:rounded-[40rem] md:rounded-br-[160rem]"
                 />
-                <div className="text-black space-y-4">
+                <div className="md:w-2/5 space-y-4">
                     <div className="text-center">
-                        <h1 className="mb-2 md:text-left text-[1.65rem] md:text-4xl font-extrabold font-[montserrat] text-black/90">
-                            MCR SPORTS COACHING
+                        <h1 className="mb-2 text-[1.65rem] md:text-4xl font-extrabold font-[montserrat] /90">
+                            JOHN FENTON TECHNICAL SOCCER COACHING
                         </h1>
-                        <h3 className="text-sm text-black/80 font-[pacifico] italic space-x-2 tracking-wider md:tracking-widest">
-                            <span>Wisdom and Effort </span>
-                            <span className="not-italic text-black">⚫</span>
-                            <span>Concilio et Labore</span>
+                        <h3 className="text-sm /80 font-[pacifico] italic space-x-2 tracking-wider md:tracking-widest">
+                            <span>
+                                UEFA/FA Licensed Premier League Academy Coach &
+                                Scout
+                            </span>
                         </h3>
                     </div>
-                    <div className="hidden md:flex items-center space-x-4 text-center">
+                    <div className="flex md:ml-1 justify-center items-center space-x-4 text-center">
                         <FaFutbol className="text-2xl text-mainColor" />
-                        <p className="leading-relaxed text-md md:text-sm font-semibold text-black/80">
-                            Football Coaching in Manchester for 1-6 year olds
+                        <p className="leading-relaxed text-md md:text-sm font-semibold /80">
+                            Links with Professional Football Clubs
                         </p>
                     </div>
-                    <div className="hidden md:flex items-center space-x-4 text-center">
+                    <div className="flex justify-center items-center space-x-4 text-center">
                         <FaFutbol className="text-2xl text-mainColor" />
-                        <p className="leading-relaxed text-md md:text-sm font-semibold text-black/80">
-                            Holiday Camps | Birthday Parties | 1-2-1 | Group
-                            Coaching
+                        <p className="leading-relaxed text-md md:text-sm font-semibold /80">
+                            Ex Liverpool and Everton FC
                         </p>
                     </div>
-                    <div className="md:hidden flex items-center space-x-4 text-center">
+                    <div className="flex justify-center items-center space-x-4 text-center">
                         <FaFutbol className="text-2xl text-mainColor" />
-                        <p className="leading-relaxed text-md md:text-sm font-semibold text-black/80">
-                            Football Coaching in Manchester
-                        </p>
-                    </div>
-                    <div className="md:hidden flex items-center space-x-4 text-center">
-                        <FaFutbol className="text-2xl text-mainColor" />
-                        <p className="leading-relaxed text-md md:text-sm font-semibold text-black/80">
-                            Holiday Camps | Birthday Parties
-                        </p>
-                    </div>
-                    <div className="md:hidden flex items-center space-x-4 text-center">
-                        <FaFutbol className="text-2xl text-mainColor" />
-                        <p className="leading-relaxed text-md md:text-sm font-semibold text-black/80">
-                            1-6 year olds | 1-2-1 | Group Coaching
+                        <p className="leading-relaxed text-md md:text-sm font-semibold /80">
+                            Talent ID & Recruitment
                         </p>
                     </div>
                     <div className="text-center">
@@ -66,7 +54,7 @@ const Hero = () => {
                                     "noreferrer"
                                 )
                             }
-                            className="text-[montserrat] transition-colors ease-in-out shadow-lg shadow-black font-semibold border focus:outline-none ring-4 rounded-xl px-6 py-[0.875rem] mr-2 mb-2 bg-secondaryColor text-black border-secondaryColor hover:bg-gradient-to-tr from-yellow-100 to-mainColor ring-yellow-200/50"
+                            className="text-[montserrat] transition-colors ease-in-out shadow-lg shadow-black font-semibold border focus:outline-none ring-4 rounded-xl px-6 py-[0.875rem] mr-2 mb-2 bg-mainColor  border-mainColor hover:bg-red-500 ring-red-500/30 hover:border-red-500/30"
                         >
                             BOOK NOW
                         </button>

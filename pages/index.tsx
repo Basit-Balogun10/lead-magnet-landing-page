@@ -6,14 +6,14 @@ import Header from "../components/Header";
 
 const Home: NextPage = () => {
   return (
-      <div className="bg-gray-300/70">
+      <div className="bg-[#b3bac7] text-[textColor]">
           <Head>
-              <title>MCR Sports Coaching</title>
+              <title>John Fenton Technical Soccer Coaching</title>
               <meta
                   name="description"
                   content="The official website of MCR Sports Coaching"
               />
-              <link rel="icon" href="/mcr_icon.ico" />
+              <link rel="icon" href="/john_fenton_icon.ico" />
           </Head>
 
           <main className="">

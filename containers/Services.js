@@ -3,7 +3,6 @@ import Service from "../components/Service";
 import {
     FaUsers,
     FaBirthdayCake,
-    FaSchool,
     FaShoppingBag,
 } from "react-icons/fa";
 
@@ -11,27 +10,21 @@ const Services = () => {
     const services = [
         {
             id: 1,
-            title: "School Clubs Parties",
+            title: "1-2-1 & Small Group Technical Coaching",
             desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.?",
-            Icon: FaSchool,
+            Icon: FaUsers,
         },
         {
             id: 2,
-            title: "Holiday Camps",
+            title: "Player Development Centres",
             desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.?",
             Icon: FaShoppingBag,
         },
         {
             id: 3,
-            title: "Birthday Parties",
+            title: "Technical Masterclass Camps",
             desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.?",
-            Icon: FaBirthdayCake,
-        },
-        {
-            id: 4,
-            title: "1-2-1 / Group Sessions",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.?",
-            Icon: FaUsers,
+            Icon: FaCampground,
         },
     ];
     return (
