@@ -24,7 +24,8 @@ const Services = () => {
         },
     ];
     return (
-        <div className="px-12 py-4 mt-1 flex flex-wrap md:flex-nowrap items-center justify-around space-y-6 md:space-y-0 md:space-x-6">
+        // <div className="px-12 py-4 mt-1 flex flex-wrap md:flex-nowrap items-center justify-around space-y-6 md:space-y-0 md:space-x-6">
+        <div className="px-6 py-4 mt-1 grid grid-cols-1 md:grid-cols-3 gap-8">
             {services.map((service) => (
                 <Service
                     key={service.id}

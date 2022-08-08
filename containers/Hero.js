@@ -6,12 +6,12 @@ const Hero = () => {
     return (
         <section
             id="hero"
-            className="md:h-[55vh] flex-col bg-gray-300/70 px-4 py-8 md:py-0 md:px-0 rounded-md"
+            className="md:h-[52vh] flex-col bg-gray-300/70 px-4 py-8 md:py-0 md:px-0 rounded-md"
         >
             <div className="flex flex-col-reverse md:flex-row md:flex-nowrap md:items-center md:justify-evenly md:space-y-0 h-full">
                 <img
                     src="/images/group_photo.png"
-                    className="w-104 h-72 mt-6 md:mt-0 shadow-xl shadow-black rounded-3xl md:rounded-[40rem] md:rounded-br-[160rem]"
+                    className="w-104 h-64 md:h-72 mt-6 md:mt-0 shadow-xl shadow-black rounded-3xl md:rounded-[40rem] md:rounded-br-[160rem]"
                 />
                 <div className="md:w-2/5 space-y-4">
                     <div className="text-center">
@@ -25,7 +25,7 @@ const Hero = () => {
                             </span>
                         </h3>
                     </div>
-                    <div className="flex md:ml-1 justify-center items-center space-x-4 text-center">
+                    <div className="flex justify-center items-center space-x-4 text-center">
                         <FaFutbol className="text-2xl text-mainColor" />
                         <p className="leading-relaxed text-md md:text-sm font-semibold /80">
                             Links with Professional Football Clubs
@@ -34,13 +34,13 @@ const Hero = () => {
                     <div className="flex justify-center items-center space-x-4 text-center">
                         <FaFutbol className="text-2xl text-mainColor" />
                         <p className="leading-relaxed text-md md:text-sm font-semibold /80">
-                            Ex Liverpool and Everton FC
+                            Talent Identification & Recruitment
                         </p>
                     </div>
                     <div className="flex justify-center items-center space-x-4 text-center">
                         <FaFutbol className="text-2xl text-mainColor" />
                         <p className="leading-relaxed text-md md:text-sm font-semibold /80">
-                            Talent ID & Recruitment
+                            Ex Liverpool and Everton FC
                         </p>
                     </div>
                     <div className="text-center">
