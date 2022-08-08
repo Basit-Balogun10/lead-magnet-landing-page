@@ -11,7 +11,7 @@ const Home: NextPage = () => {
               <title>John Fenton Technical Soccer Coaching</title>
               <meta
                   name="description"
-                  content="The official website of MCR Sports Coaching"
+                  content="The official website of John Fenton Technical Coaching"
               />
               <link rel="icon" href="/john_fenton_icon.ico" />
           </Head>

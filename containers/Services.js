@@ -1,10 +1,6 @@
 import React from "react";
 import Service from "../components/Service";
-import {
-    FaUsers,
-    FaBirthdayCake,
-    FaShoppingBag,
-} from "react-icons/fa";
+import { FaUsers, FaCampground, FaPeopleArrows } from "react-icons/fa";
 
 const Services = () => {
     const services = [
@@ -18,7 +14,7 @@ const Services = () => {
             id: 2,
             title: "Player Development Centres",
             desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.?",
-            Icon: FaShoppingBag,
+            Icon: FaPeopleArrows,
         },
         {
             id: 3,

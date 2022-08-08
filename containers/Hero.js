@@ -2,7 +2,6 @@ import React from "react";
 import { FaFutbol } from "react-icons/fa";
 
 const Hero = () => {
-    const logoUrl = "/images/mcr_logo.png";
 
     return (
         <section

@@ -4,7 +4,6 @@ import { FaInstagram, FaFacebook, FaWhatsapp } from "react-icons/fa";
 
 const Header = () => {
     const [mobileMenu, toggleMobileMenu] = useState(false);
-    const logoUrl = "/images/mcr_logo.png";
 
     const toggleMenu = () => {
         toggleMobileMenu(!mobileMenu);
@@ -22,6 +21,7 @@ const Header = () => {
                                 <img
                                     src="/images/john_fenton_logo.png"
                                     className="w-16 h-16 rounded-lg"
+                                    alt="John Fenton Logo"
                                 />
                                 <div className="flex items-center justify-center md:justify-end space-x-1 md:space-x-4">
                                     <button
