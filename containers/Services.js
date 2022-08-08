@@ -7,19 +7,19 @@ const Services = () => {
         {
             id: 1,
             title: "1-2-1 & Small Group Technical Coaching",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.?",
+            desc: "We help put you in the centre of attention- focusing on the individual needs of players and working towards your personal goals.",
             Icon: FaUsers,
         },
         {
             id: 2,
             title: "Player Development Centres",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.?",
+            desc: "Advanced coaching with a combined technical and tactical focus for children of all abilities and experiences",
             Icon: FaPeopleArrows,
         },
         {
             id: 3,
             title: "Technical Masterclass Camps",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.?",
+            desc: "Let's help you recognize weak areas, work on them and get you prepared for the upcoming season with memory-making experiences and exposure to new friends",
             Icon: FaCampground,
         },
     ];
