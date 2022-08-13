@@ -54,7 +54,7 @@ const Hero = () => {
                             type="button"
                             onClick={() =>
                                 window.open(
-                                    "https://wa.me/+447871183058",
+                                    "https://wa.me/+447562759843",
                                     "_blank",
                                     "noreferrer"
                                 )
