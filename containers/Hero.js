@@ -16,31 +16,37 @@ const Hero = () => {
                 <div className="md:w-2/5 space-y-4">
                     <div className="text-center">
                         <h1 className="mb-2 text-[1.65rem] md:text-4xl font-extrabold font-[montserrat] /90">
-                            JOHN FENTON TECHNICAL SOCCER COACHING
+                            MIDLANDS FOOTBALL ACADEMY
                         </h1>
                         <h3 className="text-sm /80 font-[pacifico] italic space-x-2 tracking-wider md:tracking-widest">
                             <span>
-                                UEFA/FA Licensed Premier League Academy Coach &
-                                Scout
+                                Grace Academy Solihull, Chapelhouse Road,
+                                Forbridge, B37 5JS
                             </span>
                         </h3>
                     </div>
-                    <div className="flex justify-center items-center space-x-4 text-center">
+                    <div className="hidden md:flex justify-center items-center space-x-4 text-center">
                         <FaFutbol className="text-2xl text-mainColor" />
                         <p className="leading-relaxed text-md md:text-sm font-semibold /80">
-                            Links with Professional Football Clubs
+                            Players aged 6+ based in North Birmingham area
+                        </p>
+                    </div>
+                    <div className="md:hidden flex justify-center items-center space-x-4 text-center">
+                        <FaFutbol className="text-2xl text-mainColor" />
+                        <p className="leading-relaxed text-md md:text-sm font-semibold /80">
+                            Working with players aged 6+
                         </p>
                     </div>
                     <div className="flex justify-center items-center space-x-4 text-center">
                         <FaFutbol className="text-2xl text-mainColor" />
                         <p className="leading-relaxed text-md md:text-sm font-semibold /80">
-                            Talent Identification & Recruitment
+                            FA Qualified Coaches
                         </p>
                     </div>
                     <div className="flex justify-center items-center space-x-4 text-center">
                         <FaFutbol className="text-2xl text-mainColor" />
                         <p className="leading-relaxed text-md md:text-sm font-semibold /80">
-                            Ex Liverpool and Everton FC
+                            1-2-1 Specialists
                         </p>
                     </div>
                     <div className="text-center">
@@ -53,7 +59,7 @@ const Hero = () => {
                                     "noreferrer"
                                 )
                             }
-                            className="text-[montserrat] transition-colors ease-in-out shadow-lg shadow-black font-semibold border focus:outline-none ring-4 rounded-xl px-6 py-[0.875rem] mr-2 mb-2 bg-mainColor  border-mainColor hover:bg-red-500 ring-red-500/30 hover:border-red-500/30"
+                            className="text-textColor text-[montserrat] transition-colors ease-in-out shadow-lg shadow-black font-extrabold border focus:outline-none ring-4 rounded-xl px-6 py-[0.875rem] mr-2 mb-2 bg-mainColor  border-mainColor hover:bg-black/90 ring-black/10 hover:border-black/80"
                         >
                             BOOK NOW
                         </button>

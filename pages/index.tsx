@@ -8,12 +8,12 @@ const Home: NextPage = () => {
   return (
       <div className="bg-[#b3bac7] text-[textColor]">
           <Head>
-              <title>John Fenton Technical Soccer Coaching</title>
+              <title>Midlands Football Academy</title>
               <meta
                   name="description"
-                  content="The official website of John Fenton Technical Coaching"
+                  content="The official website of Midlands Football Academy"
               />
-              <link rel="icon" href="/john_fenton_icon.ico" />
+              <link rel="icon" href="/midlands_icon.ico" />
           </Head>
 
           <main className="">
