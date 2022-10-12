@@ -2,36 +2,22 @@ import React from "react";
 import Service from "../components/Service";
 import {
     FaUsers,
-    FaBirthdayCake,
-    FaSchool,
-    FaShoppingBag,
+    FaPeopleArrows,
 } from "react-icons/fa";
 
 const Services = () => {
     const services = [
         {
             id: 1,
-            title: "School Clubs Parties",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.?",
-            Icon: FaSchool,
+            title: "1-2-1 Coaching",
+            desc: "We help put you in the centre of attention- focusing on the individual needs of players and working towards your personal goals.",
+            Icon: FaUsers,
         },
         {
             id: 2,
-            title: "Holiday Camps",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.?",
-            Icon: FaShoppingBag,
-        },
-        {
-            id: 3,
-            title: "Birthday Parties",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.?",
-            Icon: FaBirthdayCake,
-        },
-        {
-            id: 4,
-            title: "1-2-1 / Group Sessions",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit.?",
-            Icon: FaUsers,
+            title: "Elite Group Sessions",
+            desc: "Advanced coaching with a combined technical and tactical focus for players of all abilities and experiences",
+            Icon: FaPeopleArrows,
         },
     ];
     return (

@@ -13,8 +13,8 @@ module.exports = {
                 pacifico: ["Pacifico", "sans-serif"],
             },
             colors: {
-                mainColor: "#ffff00",
-                secondaryColor: "#fdf801",
+                mainColor: "#ba9f5c",
+                secondaryColor: "#ba9f5c",
             },
         },
     },

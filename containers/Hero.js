@@ -1,8 +1,9 @@
 import React from "react";
 import { FaFutbol } from "react-icons/fa";
+import { TiLocation } from "react-icons/ti";
 
 const Hero = () => {
-    const logoUrl = "/images/mcr_logo.png";
+    const logoUrl = "/images/vision_football_club_logo.png";
 
     return (
         <section
@@ -15,53 +16,29 @@ const Hero = () => {
                     className="w-104 h-72 mt-6 md:mt-0 shadow-xl shadow-black rounded-3xl md:rounded-[40rem] md:rounded-br-[160rem]"
                 />
                 <div className="text-black space-y-4">
-                    <div className="text-center">
-                        <h1 className="mb-2 md:text-left text-[1.65rem] md:text-4xl font-extrabold font-[montserrat] text-black/90">
-                            MCR SPORTS COACHING
+                    <div className="text-center space-y-2">
+                        <h1 className="md:text-left text-[1.65rem] md:text-4xl font-extrabold font-[montserrat] text-black/90">
+                            VISION FOOTBALL CLUB
                         </h1>
-                        <h3 className="text-sm text-black/80 font-[pacifico] italic space-x-2 tracking-wider md:tracking-widest">
-                            <span>Wisdom and Effort </span>
-                            <span className="not-italic text-black">⚫</span>
-                            <span>Concilio et Labore</span>
-                        </h3>
-                    </div>
-                    <div className="hidden md:flex items-center space-x-4 text-center">
-                        <FaFutbol className="text-2xl text-mainColor" />
-                        <p className="leading-relaxed text-md md:text-sm font-semibold text-black/80">
-                            Football Coaching in Manchester for 1-6 year olds
-                        </p>
-                    </div>
-                    <div className="hidden md:flex items-center space-x-4 text-center">
-                        <FaFutbol className="text-2xl text-mainColor" />
-                        <p className="leading-relaxed text-md md:text-sm font-semibold text-black/80">
-                            Holiday Camps | Birthday Parties | 1-2-1 | Group
-                            Coaching
-                        </p>
-                    </div>
-                    <div className="md:hidden flex items-center space-x-4 text-center">
-                        <FaFutbol className="text-2xl text-mainColor" />
-                        <p className="leading-relaxed text-md md:text-sm font-semibold text-black/80">
-                            Football Coaching in Manchester
-                        </p>
-                    </div>
-                    <div className="md:hidden flex items-center space-x-4 text-center">
-                        <FaFutbol className="text-2xl text-mainColor" />
-                        <p className="leading-relaxed text-md md:text-sm font-semibold text-black/80">
-                            Holiday Camps | Birthday Parties
-                        </p>
-                    </div>
-                    <div className="md:hidden flex items-center space-x-4 text-center">
-                        <FaFutbol className="text-2xl text-mainColor" />
-                        <p className="leading-relaxed text-md md:text-sm font-semibold text-black/80">
-                            1-6 year olds | 1-2-1 | Group Coaching
-                        </p>
+                        <div className="flex justify-center items-center space-x-4 text-center">
+                            <TiLocation className="text-2xl text-mainColor" />
+                            <h3 className="text-sm text-black/80 font-[pacifico] italic space-x-2 tracking-wider md:tracking-widest">
+                                John Roan Playing Fields SE3 9NF
+                            </h3>
+                        </div>
+                        <div className="flex justify-center items-center space-x-4 text-center">
+                            <FaFutbol className="text-2xl text-mainColor" />
+                            <h3 className="text-sm text-black/80 font-[pacifico] italic space-x-2 tracking-wider md:tracking-widest">
+                                Identifying and Developing Players
+                            </h3>
+                        </div>
                     </div>
                     <div className="text-center">
                         <button
                             type="button"
                             onClick={() =>
                                 window.open(
-                                    "https://wa.me/+447871183058",
+                                    "https://www.instagram.com/vision.footballclub/",
                                     "_blank",
                                     "noreferrer"
                                 )

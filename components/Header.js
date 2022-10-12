@@ -1,10 +1,10 @@
 import React, { useContext, useState } from "react";
 import NavItem from "./NavItem";
-import { FaInstagram, FaFacebook, FaWhatsapp } from "react-icons/fa";
+import { FaInstagram, FaYoutube, FaWhatsapp } from "react-icons/fa";
 
 const Header = () => {
     const [mobileMenu, toggleMobileMenu] = useState(false);
-    const logoUrl = "/images/mcr_logo.png";
+    const logoUrl = "/images/vision_football_club_logo.png";
 
     const toggleMenu = () => {
         toggleMobileMenu(!mobileMenu);
@@ -20,7 +20,7 @@ const Header = () => {
                         <div className="py-2 px-6 md:px-16">
                             <div className="flex items-center justify-between md:space-x-4">
                                 <img
-                                    src="/images/mcr_logo.png"
+                                    src="/images/vision_football_club_logo.png"
                                     className="w-16 h-16"
                                 />
                                 <div className="flex items-center justify-center md:justify-end space-x-1 md:space-x-4">
@@ -28,7 +28,7 @@ const Header = () => {
                                         type="button"
                                         onClick={() =>
                                             window.open(
-                                                "https://www.instagram.com/mcr_sports_coaching",
+                                                "https://www.instagram.com/vision.footballclub/",
                                                 "_blank",
                                                 "noreferrer"
                                             )
@@ -41,27 +41,14 @@ const Header = () => {
                                         type="button"
                                         onClick={() =>
                                             window.open(
-                                                "https://www.facebook.com/mcrsc/",
+                                                "https://www.youtube.com/channel/UCgCMbls9vR4TUbr3nVGNP2g",
                                                 "_blank",
                                                 "noreferrer"
                                             )
                                         }
-                                        className="p-2 text-4xl text-blue-700 hover:bg-blue-100 rounded-full border-none outline-none cursor-pointer"
+                                        className="p-2 text-4xl text-red-600 hover:bg-red-300 rounded-full border-none outline-none cursor-pointer"
                                     >
-                                        <FaFacebook />
-                                    </button>
-                                    <button
-                                        type="button"
-                                        onClick={() =>
-                                            window.open(
-                                                "https://wa.me/+447871183058",
-                                                "_blank",
-                                                "noreferrer"
-                                            )
-                                        }
-                                        className="p-2 text-4xl text-green-400 hover:bg-green-100 rounded-full border-none outline-none cursor-pointer"
-                                    >
-                                        <FaWhatsapp />
+                                        <FaYoutube />
                                     </button>
                                 </div>
                             </div>
