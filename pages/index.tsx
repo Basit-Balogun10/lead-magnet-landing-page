@@ -8,12 +8,12 @@ const Home: NextPage = () => {
     return (
         <div className="bg-gray-300/70">
             <Head>
-                <title>Vision Football Club</title>
+                <title>R-kix Football Coaching</title>
                 <meta
                     name="description"
-                    content="The official website of Vision Football Club"
+                    content="The official website of R-kix Football Coaching"
                 />
-                <link rel="icon" href="/vision_football_club_icon.ico" />
+                <link rel="icon" href="/rkix_football_coaching_icon.ico" />
             </Head>
 
             <main className="">

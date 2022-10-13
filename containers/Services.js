@@ -1,9 +1,6 @@
 import React from "react";
 import Service from "../components/Service";
-import {
-    FaUsers,
-    FaPeopleArrows,
-} from "react-icons/fa";
+import { FaUsers, FaPeopleArrows, FaCampground } from "react-icons/fa";
 
 const Services = () => {
     const services = [
@@ -15,7 +12,13 @@ const Services = () => {
         },
         {
             id: 2,
-            title: "Elite Group Sessions",
+            title: "Summer Soccer Camps",
+            desc: "Let's help you recognize weak areas, work on them and get you prepared for the upcoming season with memory-making experiences and exposure to new friends",
+            Icon: FaCampground,
+        },
+        {
+            id: 3,
+            title: "Small Group Sessions",
             desc: "Advanced coaching with a combined technical and tactical focus for players of all abilities and experiences",
             Icon: FaPeopleArrows,
         },
