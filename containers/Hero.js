@@ -12,7 +12,7 @@ const Hero = () => {
         >
             <div className="flex flex-col-reverse md:flex-row md:flex-nowrap md:items-center md:justify-evenly md:space-y-0 h-full">
                 <img
-                    src="/images/group_photo.png"
+                    src="/images/group_photo.jpg"
                     className="w-104 h-72 mt-6 md:mt-0 shadow-xl shadow-black rounded-3xl md:rounded-[40rem] md:rounded-br-[160rem]"
                 />
                 <div className="text-black space-y-4">
