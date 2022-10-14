@@ -1,6 +1,6 @@
 import React, { useContext, useState } from "react";
 import NavItem from "./NavItem";
-import { FaInstagram, FaFacebook, FaWhatsapp } from "react-icons/fa";
+import { FaInstagram, FaFacebook, FaWhatsapp, FaTiktok } from "react-icons/fa";
 
 const Header = () => {
     const [mobileMenu, toggleMobileMenu] = useState(false);
@@ -62,6 +62,19 @@ const Header = () => {
                                         className="p-2 text-4xl text-blue-700 hover:bg-blue-100 rounded-full border-none outline-none cursor-pointer"
                                     >
                                         <FaFacebook />
+                                    </button>
+                                    <button
+                                        type="button"
+                                        onClick={() =>
+                                            window.open(
+                                                "https://tiktok.com/@rkixsoccer",
+                                                "_blank",
+                                                "noreferrer"
+                                            )
+                                        }
+                                        className="p-2 text-4xl text-blue-700 hover:bg-blue-100 rounded-full border-none outline-none cursor-pointer"
+                                    >
+                                        <FaTiktok />
                                     </button>
                                 </div>
                             </div>
