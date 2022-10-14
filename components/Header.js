@@ -40,6 +40,19 @@ const Header = () => {
                                     <button
                                         type="button"
                                         onClick={() =>
+                                            window.open(ل
+                                                "https://wa.me/+447399447024",
+                                                "_blank",
+                                                "noreferrer"
+                                            )
+                                        }
+                                        className="p-2 text-4xl text-green-400 hover:bg-green-100 rounded-full border-none outline-none cursor-pointer"
+                                    >
+                                        <FaWhatsapp />
+                                    </button>
+                                    <button
+                                        type="button"
+                                        onClick={() =>
                                             window.open(
                                                 "https://www.youtube.com/channel/UCgCMbls9vR4TUbr3nVGNP2g",
                                                 "_blank",
