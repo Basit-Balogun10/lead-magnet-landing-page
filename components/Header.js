@@ -40,7 +40,7 @@ const Header = () => {
                                     <button
                                         type="button"
                                         onClick={() =>
-                                            window.open(ل
+                                            window.open(
                                                 "https://wa.me/+447399447024",
                                                 "_blank",
                                                 "noreferrer"
