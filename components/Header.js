@@ -72,7 +72,7 @@ const Header = () => {
                                                 "noreferrer"
                                             )
                                         }
-                                        className="p-2 text-4xl text-blue-700 hover:bg-blue-100 rounded-full border-none outline-none cursor-pointer"
+                                        className="p-2 text-4xl text-black hover:bg-black/10 rounded-full border-none outline-none cursor-pointer"
                                     >
                                         <FaTiktok />
                                     </button>
